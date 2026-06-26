@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой личный сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0f0f0f;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 48px;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 18px;
+            color: #aaa;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0072ff;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #005fdd;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Привет, я [Твоё имя]</h1>
+        <p>Это мой личный сайт. Здесь я буду делиться своими мыслями, проектами и всем, что мне интересно.</p>
+        <a href="#" class="btn">Связаться со мной</a>
+    </div>
+</body>
+</html>
